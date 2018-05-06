@@ -5,10 +5,21 @@ using namespace std;
 
 int main(){
 	vektor v(5,5.45);
-	v.display();
-	cout << "\n" << v.getMember(3) << endl;
-	cout << v.getMember(5) << endl;
-	v.setMember(3,7.62);
-	cout << "\n" << v.getMember(3) << endl;	
-	v.display();
+	vektor v2(7,666);
+	vektor a(3,1);
+	vektor b(3,2);
+	vektor sum,some;
+	if(1){
+		vektor fff;
+		cout <<"ObjNum is " << (a.getObjNum())<<endl;
+		
+	}
+	cout <<"vektor a" << endl;
+	a.display();
+	cout <<"\nvektor b"<<endl;
+	b.display();
+	cout << "\na==b is " << (a==b) << endl;
+	cout <<"b>a is "<< (b>a)<<endl; 
+	cout <<"a<b is "<< (a<b)<<endl; 
+	cout <<"ObjNum is " << (a.getObjNum());
 }
